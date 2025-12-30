@@ -1,0 +1,26 @@
+## Configuration du switch
+
+en
+conf t
+vlan 10
+name VENTES
+vlan 20
+name RH
+exit
+
+int range fa0/1-2
+switchport mode access
+switchport access vlan 10
+ex
+
+int range fa0/10-11
+switchport mode access
+switchport access vlan 20
+ex
+
+ip routing
+
+int vlan 10
+ip address 10.0.0.254 255.255.255.0
+int vlan 20
+ip address 10.0.1.254 255.255.255.0
