@@ -10,6 +10,6 @@ Projet réalisé sur Cisco Packet Tracer mettant en oeuvre le routage inter-VLAN
 
 ## Configuration principale
 Création des VLAN    
-Création des interfaces virtuelles sur commutateur
+Création des interfaces virtuelles sur commutateur          
 Adressage manuel des IP sur commutateur et hôtes finaux   
 Test de connectivité   
